@@ -1,7 +1,6 @@
 // @flow
 
 import { type Element, type Node } from 'react';
-import DialogButton from './components/DialogButton';
 
 export type DialogProps = {
   visible: boolean;
@@ -26,10 +25,8 @@ export type DialogProps = {
   useNativeDriver?: boolean;
 }
 
-export type DialogFooterActionList = Array<Element<typeof DialogButton>>;
-
 export type DialogFooterProps = {
-  children: DialogFooterActionList;
+  children: any;
   style?: any;
   bordered?: boolean;
 }

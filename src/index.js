@@ -1,7 +1,6 @@
 import {
   DialogProps,
   DialogFooterProps,
-  DialogFooterActionList,
   DialogButtonProps,
   DialogTitleProps,
   DialogContentProps,
@@ -32,7 +31,6 @@ export {
   SlideAnimation,
   DialogProps,
   DialogFooterProps,
-  DialogFooterActionList,
   DialogButtonProps,
   DialogTitleProps,
   DialogContentProps,
